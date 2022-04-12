@@ -1,9 +1,6 @@
 body {
     color: white;
     background-color: black;
-}
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,6 +39,10 @@ header {
     top: 0;
     padding: 0px 20px;
     min-height: 75px;
+}
+
+#nav-bar {
+    color: #ffffff;
 }
 
 @media (max-width: 600px) {
