@@ -1,6 +1,9 @@
 body {
     color: #ffffff;
     background-color: #000000;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,10 +42,6 @@ header {
     top: 0;
     padding: 0px 20px;
     min-height: 75px;
-}
-
-#nav-bar {
-    color: #ffffff;
 }
 
 @media (max-width: 600px) {
@@ -84,24 +83,25 @@ nav {
     font-weight: 400;
 }
 
-h1 {
-    color: yellow;
+.nav-link {
+    color: lightgreen;
 }
 
+h1,
 h2 {
-    color: yellow;
+    color: red;
 }
 
 h3 {
-    color: yellow;
+    color: lightgreen;
 }
 
 strong {
-    color: yellow;
+    color: red;
 }
 
 #submit {
-    background-color: yellow;
+    background-color: lightgreen;
 }
 
 h4 {
@@ -115,6 +115,7 @@ li {
 
 nav li {
     padding-bottom: 5px;
+    color: #ffffff;
 }
 
 nav>ul {
@@ -209,6 +210,10 @@ nav>ul {
     width: 100%;
 }
 
+.level {
+    font-size: 30px;
+}
+
 #Pricing {
     display: flex;
     flex-direction: row;
@@ -251,7 +256,7 @@ nav>ul {
     font-weight: 400;
     border: 0;
     margin: 15px 0;
-    background-color: rgb(30, 149, 218);
+    background-color: lightgreen;
 }
 
 .product>button:hover {
@@ -269,10 +274,6 @@ nav>ul {
         margin: 0 auto;
         margin-bottom: 10px;
     }
-}
-
-button {
-    color: #ffffff;
 }
 
 footer {
